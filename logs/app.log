@@ -1,0 +1,354 @@
+2025-10-29 17:37:26,929 - root - INFO - Configuration loaded successfully for Hybrid Trip Planner v1.0.0
+2025-10-29 17:46:44,201 - root - INFO - Configuration loaded successfully for Hybrid Trip Planner v1.0.0
+2025-10-29 18:10:19,911 - root - INFO - Configuration loaded successfully for Hybrid Trip Planner v1.0.0
+2025-10-29 18:24:58,477 - root - INFO - Configuration loaded successfully for Hybrid Trip Planner v1.0.0
+2025-10-30 06:26:34,921 - root - INFO - Configuration loaded successfully for Hybrid Trip Planner v1.0.0
+2025-10-30 07:19:13,073 - root - INFO - Configuration loaded successfully for Hybrid Trip Planner v1.0.0
+2025-10-30 07:19:13,098 - src.utils.performance_monitor - INFO - Resource monitoring started
+2025-10-30 07:19:13,098 - src.utils.performance_monitor - INFO - Performance Monitor initialized
+2025-10-30 07:19:13,120 - src.utils.cache_manager - INFO - Cache Manager initialized (max_size=10, ttl=60)
+2025-10-30 07:19:13,120 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 07:19:13,120 - src.utils.cache_manager - INFO - Cache Manager initialized (max_size=1000, ttl=3600)
+2025-10-30 07:19:13,120 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 07:19:13,120 - src.data_pipeline.osm_loader - INFO - OSM Data Loader initialized
+2025-10-30 07:19:14,693 - src.data_pipeline.osm_loader - WARNING - No city boundaries found for Visakhapatnam
+2025-10-30 07:19:14,694 - src.utils.cache_manager - INFO - Cache Manager initialized (max_size=1000, ttl=3600)
+2025-10-30 07:19:14,694 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 07:19:14,694 - src.data_pipeline.weather_loader - INFO - WeatherAPI.com Data Loader initialized
+2025-10-30 07:19:14,948 - src.data_pipeline.weather_loader - INFO - Retrieved weather data for 3 days at Visakhapatnam
+2025-10-30 07:19:14,948 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 07:19:14,949 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 07:19:14,949 - src.data_pipeline.data_validator - INFO - Starting API connection tests...
+2025-10-30 07:19:15,265 - src.data_pipeline.data_validator - INFO - OSM API test passed
+2025-10-30 07:19:15,289 - src.data_pipeline.data_validator - INFO - Weather API test passed
+2025-10-30 07:19:15,289 - src.data_pipeline.data_validator - INFO - API tests completed. Overall status: PASS
+2025-10-30 07:19:15,290 - src.utils.cache_manager - INFO - Cache Manager initialized (max_size=1000, ttl=3600)
+2025-10-30 07:19:15,290 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 07:19:15,290 - src.data_pipeline.osm_loader - INFO - OSM Data Loader initialized
+2025-10-30 07:19:20,810 - src.data_pipeline.osm_loader - WARNING - No city boundaries found for Visakhapatnam
+2025-10-30 07:19:20,810 - src.data_pipeline.osm_loader - ERROR - Could not get bounds for city: Visakhapatnam
+2025-10-30 07:19:20,811 - src.utils.cache_manager - INFO - Cache Manager initialized (max_size=1000, ttl=3600)
+2025-10-30 07:19:20,811 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 07:19:20,811 - src.data_pipeline.weather_loader - INFO - WeatherAPI.com Data Loader initialized
+2025-10-30 07:19:21,002 - src.data_pipeline.weather_loader - INFO - Retrieved weather data for 2 days at Visakhapatnam
+2025-10-30 07:19:21,002 - src.data_pipeline.data_validator - INFO - Validating 2 weather records...
+2025-10-30 07:19:21,002 - src.data_pipeline.data_validator - INFO - Weather validation completed. Score: 94.7/100, Valid: 2/2
+2025-10-30 07:19:21,003 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 07:19:21,003 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 07:19:21,003 - src.data_pipeline.data_validator - INFO - Running full validation for Visakhapatnam...
+2025-10-30 07:19:21,003 - src.data_pipeline.data_validator - INFO - Testing API connections...
+2025-10-30 07:19:21,003 - src.data_pipeline.data_validator - INFO - Starting API connection tests...
+2025-10-30 07:19:21,342 - src.data_pipeline.data_validator - INFO - OSM API test passed
+2025-10-30 07:19:21,366 - src.data_pipeline.data_validator - INFO - Weather API test passed
+2025-10-30 07:19:21,367 - src.data_pipeline.data_validator - INFO - API tests completed. Overall status: PASS
+2025-10-30 07:19:21,367 - src.data_pipeline.data_validator - INFO - APIs working, testing data fetching...
+2025-10-30 07:19:21,367 - src.utils.cache_manager - INFO - Cache Manager initialized (max_size=1000, ttl=3600)
+2025-10-30 07:19:21,367 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 07:19:21,367 - src.data_pipeline.osm_loader - INFO - OSM Data Loader initialized
+2025-10-30 07:19:22,809 - src.data_pipeline.osm_loader - WARNING - No city boundaries found for Visakhapatnam
+2025-10-30 07:19:22,809 - src.data_pipeline.osm_loader - ERROR - Could not get bounds for city: Visakhapatnam
+2025-10-30 07:19:22,809 - src.utils.cache_manager - INFO - Cache Manager initialized (max_size=1000, ttl=3600)
+2025-10-30 07:19:22,810 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 07:19:22,810 - src.data_pipeline.weather_loader - INFO - WeatherAPI.com Data Loader initialized
+2025-10-30 07:19:22,859 - src.data_pipeline.weather_loader - INFO - Retrieved weather data for 3 days at 
+2025-10-30 07:19:22,859 - src.data_pipeline.data_validator - INFO - Validating 3 weather records...
+2025-10-30 07:19:22,859 - src.data_pipeline.data_validator - INFO - Weather validation completed. Score: 92.9/100, Valid: 3/3
+2025-10-30 07:19:22,859 - src.data_pipeline.data_validator - INFO - Full validation completed. Status: success
+2025-10-30 07:39:35,560 - root - INFO - Configuration loaded successfully for Hybrid Trip Planner v1.0.0
+2025-10-30 07:39:35,570 - src.utils.performance_monitor - INFO - Resource monitoring started
+2025-10-30 07:39:35,570 - src.utils.performance_monitor - INFO - Performance Monitor initialized
+2025-10-30 07:39:35,594 - src.utils.cache_manager - INFO - Cache Manager initialized (max_size=10, ttl=60)
+2025-10-30 07:39:35,594 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 07:39:35,594 - src.data_pipeline.osm_loader - INFO - OSM Data Loader initialized
+2025-10-30 07:39:37,250 - src.data_pipeline.osm_loader - WARNING - No city boundaries found for Visakhapatnam
+2025-10-30 07:39:37,250 - src.data_pipeline.weather_loader - INFO - WeatherAPI.com Data Loader initialized
+2025-10-30 07:39:37,586 - src.data_pipeline.weather_loader - INFO - Retrieved weather data for 3 days at Visakhapatnam
+2025-10-30 07:39:37,586 - src.data_pipeline.data_validator - INFO - Starting API connection tests...
+2025-10-30 07:39:38,304 - src.data_pipeline.data_validator - INFO - OSM API test passed
+2025-10-30 07:39:38,327 - src.data_pipeline.data_validator - INFO - Weather API test passed
+2025-10-30 07:39:38,328 - src.data_pipeline.data_validator - INFO - API tests completed. Overall status: PASS
+2025-10-30 07:39:38,328 - src.data_pipeline.osm_loader - INFO - OSM Data Loader initialized
+2025-10-30 07:39:44,679 - src.data_pipeline.osm_loader - WARNING - No city boundaries found for Visakhapatnam
+2025-10-30 07:39:44,680 - src.data_pipeline.osm_loader - ERROR - Could not get bounds for city: Visakhapatnam
+2025-10-30 07:39:44,680 - src.data_pipeline.weather_loader - INFO - WeatherAPI.com Data Loader initialized
+2025-10-30 07:39:44,825 - src.data_pipeline.weather_loader - INFO - Retrieved weather data for 2 days at Visakhapatnam
+2025-10-30 07:39:44,825 - src.data_pipeline.data_validator - INFO - Validating 2 weather records...
+2025-10-30 07:39:44,825 - src.data_pipeline.data_validator - INFO - Weather validation completed. Score: 94.7/100, Valid: 2/2
+2025-10-30 07:39:44,826 - src.data_pipeline.data_validator - INFO - Running full validation for Visakhapatnam...
+2025-10-30 07:39:44,826 - src.data_pipeline.data_validator - INFO - Testing API connections...
+2025-10-30 07:39:44,826 - src.data_pipeline.data_validator - INFO - Starting API connection tests...
+2025-10-30 07:39:49,569 - src.data_pipeline.data_validator - INFO - OSM API test passed
+2025-10-30 07:39:49,593 - src.data_pipeline.data_validator - INFO - Weather API test passed
+2025-10-30 07:39:49,593 - src.data_pipeline.data_validator - INFO - API tests completed. Overall status: PASS
+2025-10-30 07:39:49,593 - src.data_pipeline.data_validator - INFO - APIs working, testing data fetching...
+2025-10-30 07:39:49,593 - src.data_pipeline.osm_loader - INFO - OSM Data Loader initialized
+2025-10-30 07:39:51,092 - src.data_pipeline.osm_loader - WARNING - No city boundaries found for Visakhapatnam
+2025-10-30 07:39:51,093 - src.data_pipeline.osm_loader - ERROR - Could not get bounds for city: Visakhapatnam
+2025-10-30 07:39:51,093 - src.data_pipeline.weather_loader - INFO - WeatherAPI.com Data Loader initialized
+2025-10-30 07:39:51,141 - src.data_pipeline.weather_loader - INFO - Retrieved weather data for 3 days at 
+2025-10-30 07:39:51,141 - src.data_pipeline.data_validator - INFO - Validating 3 weather records...
+2025-10-30 07:39:51,141 - src.data_pipeline.data_validator - INFO - Weather validation completed. Score: 92.9/100, Valid: 3/3
+2025-10-30 07:39:51,141 - src.data_pipeline.data_validator - INFO - Full validation completed. Status: success
+2025-10-30 07:45:02,392 - root - INFO - Configuration loaded successfully for Hybrid Trip Planner v1.0.0
+2025-10-30 07:45:02,401 - src.utils.performance_monitor - INFO - Resource monitoring started
+2025-10-30 07:45:02,401 - src.utils.performance_monitor - INFO - Performance Monitor initialized
+2025-10-30 07:45:02,410 - src.utils.cache_manager - INFO - Cache Manager initialized (max_size=10, ttl=60)
+2025-10-30 07:45:02,410 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 07:45:02,410 - src.data_pipeline.osm_loader - INFO - OSM Data Loader initialized
+2025-10-30 07:45:04,397 - src.data_pipeline.osm_loader - WARNING - No city boundaries found for Visakhapatnam
+2025-10-30 07:45:04,397 - src.data_pipeline.weather_loader - INFO - WeatherAPI.com Data Loader initialized
+2025-10-30 07:45:04,691 - src.data_pipeline.weather_loader - INFO - Retrieved weather data for 3 days at Visakhapatnam
+2025-10-30 07:45:04,692 - src.data_pipeline.data_validator - INFO - Starting API connection tests...
+2025-10-30 07:45:05,310 - src.data_pipeline.data_validator - INFO - OSM API test passed
+2025-10-30 07:45:05,334 - src.data_pipeline.data_validator - INFO - Weather API test passed
+2025-10-30 07:45:05,334 - src.data_pipeline.data_validator - INFO - API tests completed. Overall status: PASS
+2025-10-30 07:45:05,334 - src.data_pipeline.osm_loader - INFO - OSM Data Loader initialized
+2025-10-30 07:45:09,027 - src.data_pipeline.osm_loader - WARNING - No city boundaries found for Visakhapatnam
+2025-10-30 07:45:09,028 - src.data_pipeline.osm_loader - ERROR - Could not get bounds for city: Visakhapatnam
+2025-10-30 07:45:09,028 - src.data_pipeline.weather_loader - INFO - WeatherAPI.com Data Loader initialized
+2025-10-30 07:45:09,177 - src.data_pipeline.weather_loader - INFO - Retrieved weather data for 2 days at Visakhapatnam
+2025-10-30 07:45:09,178 - src.data_pipeline.data_validator - INFO - Validating 2 weather records...
+2025-10-30 07:45:09,178 - src.data_pipeline.data_validator - INFO - Weather validation completed. Score: 94.7/100, Valid: 2/2
+2025-10-30 07:45:09,178 - src.data_pipeline.data_validator - INFO - Running full validation for Visakhapatnam...
+2025-10-30 07:45:09,178 - src.data_pipeline.data_validator - INFO - Testing API connections...
+2025-10-30 07:45:09,178 - src.data_pipeline.data_validator - INFO - Starting API connection tests...
+2025-10-30 07:45:12,887 - src.data_pipeline.data_validator - INFO - OSM API test passed
+2025-10-30 07:45:12,911 - src.data_pipeline.data_validator - INFO - Weather API test passed
+2025-10-30 07:45:12,911 - src.data_pipeline.data_validator - INFO - API tests completed. Overall status: PASS
+2025-10-30 07:45:12,911 - src.data_pipeline.data_validator - INFO - APIs working, testing data fetching...
+2025-10-30 07:45:12,911 - src.data_pipeline.osm_loader - INFO - OSM Data Loader initialized
+2025-10-30 07:45:14,801 - src.data_pipeline.osm_loader - WARNING - No city boundaries found for Visakhapatnam
+2025-10-30 07:45:14,801 - src.data_pipeline.osm_loader - ERROR - Could not get bounds for city: Visakhapatnam
+2025-10-30 07:45:14,802 - src.data_pipeline.weather_loader - INFO - WeatherAPI.com Data Loader initialized
+2025-10-30 07:45:14,852 - src.data_pipeline.weather_loader - INFO - Retrieved weather data for 3 days at 
+2025-10-30 07:45:14,852 - src.data_pipeline.data_validator - INFO - Validating 3 weather records...
+2025-10-30 07:45:14,852 - src.data_pipeline.data_validator - INFO - Weather validation completed. Score: 92.9/100, Valid: 3/3
+2025-10-30 07:45:14,852 - src.data_pipeline.data_validator - INFO - Full validation completed. Status: success
+2025-10-30 07:51:06,849 - root - INFO - Configuration loaded successfully for Hybrid Trip Planner v1.0.0
+2025-10-30 07:51:06,857 - src.utils.performance_monitor - INFO - Resource monitoring started
+2025-10-30 07:51:06,857 - src.utils.performance_monitor - INFO - Performance Monitor initialized
+2025-10-30 07:51:06,864 - src.utils.cache_manager - INFO - Cache Manager initialized (max_size=10, ttl=60)
+2025-10-30 07:51:06,864 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 07:51:06,864 - src.data_pipeline.osm_loader - INFO - OSM Data Loader initialized
+2025-10-30 07:51:08,316 - src.data_pipeline.osm_loader - WARNING - No city boundaries found for Visakhapatnam
+2025-10-30 07:51:08,316 - src.data_pipeline.weather_loader - INFO - WeatherAPI.com Data Loader initialized
+2025-10-30 07:51:08,571 - src.data_pipeline.weather_loader - INFO - Retrieved weather data for 3 days at Visakhapatnam
+2025-10-30 07:51:08,572 - src.data_pipeline.data_validator - INFO - Starting API connection tests...
+2025-10-30 07:51:08,895 - src.data_pipeline.data_validator - INFO - OSM API test passed
+2025-10-30 07:51:08,920 - src.data_pipeline.data_validator - INFO - Weather API test passed
+2025-10-30 07:51:08,920 - src.data_pipeline.data_validator - INFO - API tests completed. Overall status: PASS
+2025-10-30 07:51:08,921 - src.data_pipeline.osm_loader - INFO - OSM Data Loader initialized
+2025-10-30 07:51:10,378 - src.data_pipeline.osm_loader - WARNING - No city boundaries found for Visakhapatnam
+2025-10-30 07:51:10,379 - src.data_pipeline.osm_loader - ERROR - Could not get bounds for city: Visakhapatnam
+2025-10-30 07:51:10,379 - src.data_pipeline.weather_loader - INFO - WeatherAPI.com Data Loader initialized
+2025-10-30 07:51:10,521 - src.data_pipeline.weather_loader - INFO - Retrieved weather data for 2 days at Visakhapatnam
+2025-10-30 07:51:10,522 - src.data_pipeline.data_validator - INFO - Validating 2 weather records...
+2025-10-30 07:51:10,522 - src.data_pipeline.data_validator - INFO - Weather validation completed. Score: 94.7/100, Valid: 2/2
+2025-10-30 07:51:10,522 - src.data_pipeline.data_validator - INFO - Running full validation for Visakhapatnam...
+2025-10-30 07:51:10,522 - src.data_pipeline.data_validator - INFO - Testing API connections...
+2025-10-30 07:51:10,523 - src.data_pipeline.data_validator - INFO - Starting API connection tests...
+2025-10-30 07:51:10,800 - src.data_pipeline.data_validator - INFO - OSM API test passed
+2025-10-30 07:51:10,824 - src.data_pipeline.data_validator - INFO - Weather API test passed
+2025-10-30 07:51:10,824 - src.data_pipeline.data_validator - INFO - API tests completed. Overall status: PASS
+2025-10-30 07:51:10,824 - src.data_pipeline.data_validator - INFO - APIs working, testing data fetching...
+2025-10-30 07:51:10,825 - src.data_pipeline.osm_loader - INFO - OSM Data Loader initialized
+2025-10-30 07:51:12,561 - src.data_pipeline.osm_loader - WARNING - No city boundaries found for Visakhapatnam
+2025-10-30 07:51:12,561 - src.data_pipeline.osm_loader - ERROR - Could not get bounds for city: Visakhapatnam
+2025-10-30 07:51:12,561 - src.data_pipeline.weather_loader - INFO - WeatherAPI.com Data Loader initialized
+2025-10-30 07:51:12,609 - src.data_pipeline.weather_loader - INFO - Retrieved weather data for 3 days at 
+2025-10-30 07:51:12,609 - src.data_pipeline.data_validator - INFO - Validating 3 weather records...
+2025-10-30 07:51:12,609 - src.data_pipeline.data_validator - INFO - Weather validation completed. Score: 92.9/100, Valid: 3/3
+2025-10-30 07:51:12,609 - src.data_pipeline.data_validator - INFO - Full validation completed. Status: success
+2025-10-30 08:09:41,718 - root - INFO - Configuration loaded successfully for Hybrid Trip Planner v1.0.0
+2025-10-30 08:09:41,727 - src.utils.performance_monitor - INFO - Resource monitoring started
+2025-10-30 08:09:41,727 - src.utils.performance_monitor - INFO - Performance Monitor initialized
+2025-10-30 08:09:41,740 - src.utils.cache_manager - INFO - Cache Manager initialized (max_size=10, ttl=60)
+2025-10-30 08:09:41,740 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 08:09:41,740 - src.data_pipeline.osm_loader - INFO - OSM Data Loader initialized
+2025-10-30 08:10:12,873 - src.data_pipeline.osm_loader - WARNING - Timeout on http://overpass-api.de/api/interpreter
+2025-10-30 08:10:44,462 - src.data_pipeline.osm_loader - WARNING - Timeout on https://overpass.kumi.systems/api/interpreter
+2025-10-30 08:11:17,753 - src.data_pipeline.osm_loader - WARNING - Timeout on https://overpass.openstreetmap.ru/api/interpreter
+2025-10-30 08:11:41,740 - src.utils.cache_manager - INFO - Cleaned 1 expired cache entries
+2025-10-30 08:11:49,885 - src.data_pipeline.osm_loader - WARNING - Timeout on http://overpass-api.de/api/interpreter
+2025-10-30 08:12:25,805 - root - INFO - Configuration loaded successfully for Hybrid Trip Planner v1.0.0
+2025-10-30 08:12:25,813 - src.utils.performance_monitor - INFO - Resource monitoring started
+2025-10-30 08:12:25,813 - src.utils.performance_monitor - INFO - Performance Monitor initialized
+2025-10-30 08:12:25,827 - src.utils.cache_manager - INFO - Cache Manager initialized (max_size=10, ttl=60)
+2025-10-30 08:12:25,828 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 08:12:25,828 - src.data_pipeline.osm_loader - INFO - OSM Data Loader initialized
+2025-10-30 08:13:02,739 - src.data_pipeline.osm_loader - WARNING - No city boundaries found for Visakhapatnam
+2025-10-30 08:13:02,739 - src.data_pipeline.weather_loader - INFO - WeatherAPI.com Data Loader initialized
+2025-10-30 08:13:03,046 - src.data_pipeline.weather_loader - INFO - Retrieved weather data for 3 days at Visakhapatnam
+2025-10-30 08:13:03,047 - src.data_pipeline.data_validator - INFO - Starting API connection tests...
+2025-10-30 08:13:03,367 - src.data_pipeline.data_validator - INFO - OSM API test passed
+2025-10-30 08:13:03,391 - src.data_pipeline.data_validator - INFO - Weather API test passed
+2025-10-30 08:13:03,391 - src.data_pipeline.data_validator - INFO - API tests completed. Overall status: PASS
+2025-10-30 08:13:03,391 - src.data_pipeline.osm_loader - INFO - OSM Data Loader initialized
+2025-10-30 08:13:40,561 - src.data_pipeline.osm_loader - WARNING - No city boundaries found for Visakhapatnam
+2025-10-30 08:13:40,562 - src.data_pipeline.osm_loader - ERROR - Could not get bounds for city: Visakhapatnam
+2025-10-30 08:13:40,562 - src.data_pipeline.weather_loader - INFO - WeatherAPI.com Data Loader initialized
+2025-10-30 08:13:40,722 - src.data_pipeline.weather_loader - INFO - Retrieved weather data for 2 days at Visakhapatnam
+2025-10-30 08:13:40,722 - src.data_pipeline.data_validator - INFO - Validating 2 weather records...
+2025-10-30 08:13:40,723 - src.data_pipeline.data_validator - INFO - Weather validation completed. Score: 94.7/100, Valid: 2/2
+2025-10-30 08:13:40,723 - src.data_pipeline.data_validator - INFO - Running full validation for Visakhapatnam...
+2025-10-30 08:13:40,723 - src.data_pipeline.data_validator - INFO - Testing API connections...
+2025-10-30 08:13:40,723 - src.data_pipeline.data_validator - INFO - Starting API connection tests...
+2025-10-30 08:13:41,026 - src.data_pipeline.data_validator - INFO - OSM API test passed
+2025-10-30 08:13:41,055 - src.data_pipeline.data_validator - INFO - Weather API test passed
+2025-10-30 08:13:41,055 - src.data_pipeline.data_validator - INFO - API tests completed. Overall status: PASS
+2025-10-30 08:13:41,055 - src.data_pipeline.data_validator - INFO - APIs working, testing data fetching...
+2025-10-30 08:13:41,055 - src.data_pipeline.osm_loader - INFO - OSM Data Loader initialized
+2025-10-30 08:14:16,553 - src.data_pipeline.osm_loader - WARNING - No city boundaries found for Visakhapatnam
+2025-10-30 08:14:16,553 - src.data_pipeline.osm_loader - ERROR - Could not get bounds for city: Visakhapatnam
+2025-10-30 08:14:16,553 - src.data_pipeline.weather_loader - INFO - WeatherAPI.com Data Loader initialized
+2025-10-30 08:14:16,701 - src.data_pipeline.weather_loader - INFO - Retrieved weather data for 3 days at 
+2025-10-30 08:14:16,701 - src.data_pipeline.data_validator - INFO - Validating 3 weather records...
+2025-10-30 08:14:16,701 - src.data_pipeline.data_validator - INFO - Weather validation completed. Score: 92.9/100, Valid: 3/3
+2025-10-30 08:14:16,701 - src.data_pipeline.data_validator - INFO - Full validation completed. Status: success
+2025-10-30 08:17:06,749 - root - INFO - Configuration loaded successfully for Hybrid Trip Planner v1.0.0
+2025-10-30 08:17:06,759 - src.utils.performance_monitor - INFO - Resource monitoring started
+2025-10-30 08:17:06,759 - src.utils.performance_monitor - INFO - Performance Monitor initialized
+2025-10-30 08:17:06,774 - src.utils.cache_manager - INFO - Cache Manager initialized (max_size=10, ttl=60)
+2025-10-30 08:17:06,774 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 08:17:06,774 - src.data_pipeline.osm_loader - INFO - OSM Data Loader initialized
+2025-10-30 08:17:08,242 - src.data_pipeline.osm_loader - WARNING - No city boundaries found for Visakhapatnam
+2025-10-30 08:17:08,242 - src.data_pipeline.weather_loader - INFO - WeatherAPI.com Data Loader initialized
+2025-10-30 08:17:08,545 - src.data_pipeline.weather_loader - INFO - Retrieved weather data for 3 days at Visakhapatnam
+2025-10-30 08:17:08,545 - src.data_pipeline.data_validator - INFO - Starting API connection tests...
+2025-10-30 08:17:08,845 - src.data_pipeline.data_validator - INFO - OSM API test passed
+2025-10-30 08:17:08,869 - src.data_pipeline.data_validator - INFO - Weather API test passed
+2025-10-30 08:17:08,870 - src.data_pipeline.data_validator - INFO - API tests completed. Overall status: PASS
+2025-10-30 08:17:08,870 - src.data_pipeline.osm_loader - INFO - OSM Data Loader initialized
+2025-10-30 08:17:10,640 - src.data_pipeline.osm_loader - WARNING - No city boundaries found for Visakhapatnam
+2025-10-30 08:17:10,640 - src.data_pipeline.osm_loader - ERROR - Could not get bounds for city: Visakhapatnam
+2025-10-30 08:17:10,640 - src.data_pipeline.weather_loader - INFO - WeatherAPI.com Data Loader initialized
+2025-10-30 08:17:10,787 - src.data_pipeline.weather_loader - INFO - Retrieved weather data for 2 days at Visakhapatnam
+2025-10-30 08:17:10,787 - src.data_pipeline.data_validator - INFO - Validating 2 weather records...
+2025-10-30 08:17:10,787 - src.data_pipeline.data_validator - INFO - Weather validation completed. Score: 94.7/100, Valid: 2/2
+2025-10-30 08:17:10,788 - src.data_pipeline.data_validator - INFO - Running full validation for Visakhapatnam...
+2025-10-30 08:17:10,788 - src.data_pipeline.data_validator - INFO - Testing API connections...
+2025-10-30 08:17:10,788 - src.data_pipeline.data_validator - INFO - Starting API connection tests...
+2025-10-30 08:17:11,078 - src.data_pipeline.data_validator - INFO - OSM API test passed
+2025-10-30 08:17:11,103 - src.data_pipeline.data_validator - INFO - Weather API test passed
+2025-10-30 08:17:11,103 - src.data_pipeline.data_validator - INFO - API tests completed. Overall status: PASS
+2025-10-30 08:17:11,103 - src.data_pipeline.data_validator - INFO - APIs working, testing data fetching...
+2025-10-30 08:17:11,103 - src.data_pipeline.osm_loader - INFO - OSM Data Loader initialized
+2025-10-30 08:17:12,904 - src.data_pipeline.osm_loader - WARNING - No city boundaries found for Visakhapatnam
+2025-10-30 08:17:12,904 - src.data_pipeline.osm_loader - ERROR - Could not get bounds for city: Visakhapatnam
+2025-10-30 08:17:12,904 - src.data_pipeline.weather_loader - INFO - WeatherAPI.com Data Loader initialized
+2025-10-30 08:17:12,953 - src.data_pipeline.weather_loader - INFO - Retrieved weather data for 3 days at 
+2025-10-30 08:17:12,953 - src.data_pipeline.data_validator - INFO - Validating 3 weather records...
+2025-10-30 08:17:12,954 - src.data_pipeline.data_validator - INFO - Weather validation completed. Score: 92.9/100, Valid: 3/3
+2025-10-30 08:17:12,954 - src.data_pipeline.data_validator - INFO - Full validation completed. Status: success
+2025-10-30 09:30:08,414 - root - INFO - Configuration loaded successfully for Hybrid Trip Planner v1.0.0
+2025-10-30 09:30:08,422 - src.utils.performance_monitor - INFO - Resource monitoring started
+2025-10-30 09:30:08,423 - src.utils.performance_monitor - INFO - Performance Monitor initialized
+2025-10-30 09:30:08,436 - src.utils.cache_manager - INFO - Cache Manager initialized (max_size=10, ttl=60)
+2025-10-30 09:30:08,436 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 09:30:08,436 - src.data_pipeline.osm_loader - INFO - OSM Data Loader initialized
+2025-10-30 09:30:08,437 - src.utils.cache_manager - INFO - Cache Manager initialized (max_size=1000, ttl=3600)
+2025-10-30 09:30:08,437 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 09:30:08,437 - src.data_pipeline.osm_loader - INFO - Fetching city bounds for Visakhapatnam from Nominatim...
+2025-10-30 09:30:08,987 - src.data_pipeline.osm_loader - INFO - Retrieved bounds for Visakhapatnam: (17.5335526, 83.1321297, 17.8535526, 83.4521297)
+2025-10-30 09:30:08,989 - src.utils.cache_manager - INFO - Cache Manager initialized (max_size=1000, ttl=3600)
+2025-10-30 09:30:08,989 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 09:30:08,990 - src.data_pipeline.osm_loader - INFO - Fetching city bounds for Visakhapatnam from Nominatim...
+2025-10-30 09:30:09,952 - src.data_pipeline.osm_loader - INFO - Retrieved bounds for Visakhapatnam: (17.5335526, 83.1321297, 17.8535526, 83.4521297)
+2025-10-30 09:30:15,200 - src.data_pipeline.osm_loader - INFO - Filtered 1215 POIs down to 5 valid POIs
+2025-10-30 09:30:15,200 - src.data_pipeline.osm_loader - INFO - Fetched 5 POIs for Visakhapatnam
+2025-10-30 09:30:15,201 - src.data_pipeline.weather_loader - INFO - WeatherAPI.com Data Loader initialized
+2025-10-30 09:30:15,569 - src.data_pipeline.weather_loader - INFO - Retrieved weather data for 3 days at Visakhapatnam
+2025-10-30 09:30:15,569 - src.data_pipeline.data_validator - INFO - Starting API connection tests...
+2025-10-30 09:30:15,899 - src.data_pipeline.data_validator - INFO - OSM API test passed
+2025-10-30 09:30:15,922 - src.data_pipeline.data_validator - INFO - Weather API test passed
+2025-10-30 09:30:15,922 - src.data_pipeline.data_validator - INFO - API tests completed. Overall status: PASS
+2025-10-30 09:30:15,923 - src.data_pipeline.osm_loader - INFO - OSM Data Loader initialized
+2025-10-30 09:30:15,923 - src.utils.cache_manager - INFO - Cache Manager initialized (max_size=1000, ttl=3600)
+2025-10-30 09:30:15,923 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 09:30:15,923 - src.data_pipeline.osm_loader - INFO - Fetching city bounds for Visakhapatnam from Nominatim...
+2025-10-30 09:30:16,246 - src.data_pipeline.osm_loader - INFO - Retrieved bounds for Visakhapatnam: (17.5335526, 83.1321297, 17.8535526, 83.4521297)
+2025-10-30 09:30:21,801 - src.data_pipeline.osm_loader - INFO - Filtered 1215 POIs down to 3 valid POIs
+2025-10-30 09:30:21,802 - src.data_pipeline.osm_loader - INFO - Fetched 3 POIs for Visakhapatnam
+2025-10-30 09:30:21,803 - src.data_pipeline.data_validator - INFO - Validating 3 POI records...
+2025-10-30 09:30:21,803 - src.data_pipeline.data_validator - INFO - POI validation completed. Score: 60.0/100, Valid: 3/3
+2025-10-30 09:30:21,803 - src.data_pipeline.weather_loader - INFO - WeatherAPI.com Data Loader initialized
+2025-10-30 09:30:21,955 - src.data_pipeline.weather_loader - INFO - Retrieved weather data for 2 days at Visakhapatnam
+2025-10-30 09:30:21,955 - src.data_pipeline.data_validator - INFO - Validating 2 weather records...
+2025-10-30 09:30:21,956 - src.data_pipeline.data_validator - INFO - Weather validation completed. Score: 94.7/100, Valid: 2/2
+2025-10-30 09:30:21,956 - src.data_pipeline.data_validator - INFO - Running full validation for Visakhapatnam...
+2025-10-30 09:30:21,956 - src.data_pipeline.data_validator - INFO - Testing API connections...
+2025-10-30 09:30:21,956 - src.data_pipeline.data_validator - INFO - Starting API connection tests...
+2025-10-30 09:30:23,008 - src.data_pipeline.data_validator - INFO - OSM API test passed
+2025-10-30 09:30:23,033 - src.data_pipeline.data_validator - INFO - Weather API test passed
+2025-10-30 09:30:23,033 - src.data_pipeline.data_validator - INFO - API tests completed. Overall status: PASS
+2025-10-30 09:30:23,033 - src.data_pipeline.data_validator - INFO - APIs working, testing data fetching...
+2025-10-30 09:30:23,034 - src.data_pipeline.osm_loader - INFO - OSM Data Loader initialized
+2025-10-30 09:30:23,034 - src.utils.cache_manager - INFO - Cache Manager initialized (max_size=1000, ttl=3600)
+2025-10-30 09:30:23,034 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 09:30:23,034 - src.data_pipeline.osm_loader - INFO - Fetching city bounds for Visakhapatnam from Nominatim...
+2025-10-30 09:30:23,408 - src.data_pipeline.osm_loader - INFO - Retrieved bounds for Visakhapatnam: (17.5335526, 83.1321297, 17.8535526, 83.4521297)
+2025-10-30 09:30:27,719 - src.data_pipeline.osm_loader - INFO - Filtered 1215 POIs down to 10 valid POIs
+2025-10-30 09:30:27,719 - src.data_pipeline.osm_loader - INFO - Fetched 10 POIs for Visakhapatnam
+2025-10-30 09:30:27,720 - src.data_pipeline.data_validator - INFO - Validating 10 POI records...
+2025-10-30 09:30:27,720 - src.data_pipeline.data_validator - INFO - POI validation completed. Score: 62.8/100, Valid: 10/10
+2025-10-30 09:30:27,720 - src.data_pipeline.weather_loader - INFO - WeatherAPI.com Data Loader initialized
+2025-10-30 09:30:27,769 - src.data_pipeline.weather_loader - INFO - Retrieved weather data for 3 days at 
+2025-10-30 09:30:27,769 - src.data_pipeline.data_validator - INFO - Validating 3 weather records...
+2025-10-30 09:30:27,769 - src.data_pipeline.data_validator - INFO - Weather validation completed. Score: 92.9/100, Valid: 3/3
+2025-10-30 09:30:27,769 - src.data_pipeline.data_validator - INFO - Full validation completed. Status: success
+2025-10-30 09:34:23,119 - root - INFO - Configuration loaded successfully for Hybrid Trip Planner v1.0.0
+2025-10-30 09:34:23,127 - src.utils.performance_monitor - INFO - Resource monitoring started
+2025-10-30 09:34:23,128 - src.utils.performance_monitor - INFO - Performance Monitor initialized
+2025-10-30 09:34:23,136 - src.utils.cache_manager - INFO - Cache Manager initialized (max_size=10, ttl=60)
+2025-10-30 09:34:23,136 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 09:34:23,137 - src.data_pipeline.osm_loader - INFO - OSM Data Loader initialized
+2025-10-30 09:34:23,137 - src.utils.cache_manager - INFO - Cache Manager initialized (max_size=1000, ttl=3600)
+2025-10-30 09:34:23,137 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 09:34:23,137 - src.data_pipeline.osm_loader - INFO - Fetching city bounds for Mumbai from Nominatim...
+2025-10-30 09:34:23,675 - src.data_pipeline.osm_loader - INFO - Retrieved bounds for Mumbai: (18.8939566, 72.776333, 19.2694771, 72.9817485)
+2025-10-30 09:34:23,677 - src.utils.cache_manager - INFO - Cache Manager initialized (max_size=1000, ttl=3600)
+2025-10-30 09:34:23,677 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 09:34:23,678 - src.data_pipeline.osm_loader - INFO - Fetching city bounds for Mumbai from Nominatim...
+2025-10-30 09:34:24,731 - src.data_pipeline.osm_loader - INFO - Retrieved bounds for Mumbai: (18.8939566, 72.776333, 19.2694771, 72.9817485)
+2025-10-30 09:34:34,233 - src.data_pipeline.osm_loader - INFO - Filtered 4902 POIs down to 5 valid POIs
+2025-10-30 09:34:34,234 - src.data_pipeline.osm_loader - INFO - Fetched 5 POIs for Mumbai
+2025-10-30 09:34:34,238 - src.data_pipeline.weather_loader - INFO - WeatherAPI.com Data Loader initialized
+2025-10-30 09:34:34,492 - src.data_pipeline.weather_loader - INFO - Retrieved weather data for 3 days at Mumbai
+2025-10-30 09:34:34,492 - src.data_pipeline.data_validator - INFO - Starting API connection tests...
+2025-10-30 09:34:35,207 - src.data_pipeline.data_validator - INFO - OSM API test passed
+2025-10-30 09:34:35,329 - src.data_pipeline.data_validator - INFO - Weather API test passed
+2025-10-30 09:34:35,329 - src.data_pipeline.data_validator - INFO - API tests completed. Overall status: PASS
+2025-10-30 09:34:35,329 - src.data_pipeline.osm_loader - INFO - OSM Data Loader initialized
+2025-10-30 09:34:35,330 - src.utils.cache_manager - INFO - Cache Manager initialized (max_size=1000, ttl=3600)
+2025-10-30 09:34:35,330 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 09:34:35,330 - src.data_pipeline.osm_loader - INFO - Fetching city bounds for Mumbai from Nominatim...
+2025-10-30 09:34:36,044 - src.data_pipeline.osm_loader - INFO - Retrieved bounds for Mumbai: (18.8939566, 72.776333, 19.2694771, 72.9817485)
+2025-10-30 09:34:47,062 - src.data_pipeline.osm_loader - INFO - Filtered 4902 POIs down to 3 valid POIs
+2025-10-30 09:34:47,062 - src.data_pipeline.osm_loader - INFO - Fetched 3 POIs for Mumbai
+2025-10-30 09:34:47,065 - src.data_pipeline.data_validator - INFO - Validating 3 POI records...
+2025-10-30 09:34:47,065 - src.data_pipeline.data_validator - INFO - POI validation completed. Score: 61.3/100, Valid: 3/3
+2025-10-30 09:34:47,065 - src.data_pipeline.weather_loader - INFO - WeatherAPI.com Data Loader initialized
+2025-10-30 09:34:47,206 - src.data_pipeline.weather_loader - INFO - Retrieved weather data for 2 days at Mumbai
+2025-10-30 09:34:47,206 - src.data_pipeline.data_validator - INFO - Validating 2 weather records...
+2025-10-30 09:34:47,206 - src.data_pipeline.data_validator - INFO - Weather validation completed. Score: 94.7/100, Valid: 2/2
+2025-10-30 09:34:47,206 - src.data_pipeline.data_validator - INFO - Running full validation for Mumbai...
+2025-10-30 09:34:47,207 - src.data_pipeline.data_validator - INFO - Testing API connections...
+2025-10-30 09:34:47,207 - src.data_pipeline.data_validator - INFO - Starting API connection tests...
+2025-10-30 09:34:52,279 - src.data_pipeline.data_validator - INFO - OSM API test passed
+2025-10-30 09:34:52,303 - src.data_pipeline.data_validator - INFO - Weather API test passed
+2025-10-30 09:34:52,303 - src.data_pipeline.data_validator - INFO - API tests completed. Overall status: PASS
+2025-10-30 09:34:52,303 - src.data_pipeline.data_validator - INFO - APIs working, testing data fetching...
+2025-10-30 09:34:52,303 - src.data_pipeline.osm_loader - INFO - OSM Data Loader initialized
+2025-10-30 09:34:52,303 - src.utils.cache_manager - INFO - Cache Manager initialized (max_size=1000, ttl=3600)
+2025-10-30 09:34:52,303 - src.utils.error_handler - INFO - Error Handler initialized
+2025-10-30 09:34:52,304 - src.data_pipeline.osm_loader - INFO - Fetching city bounds for Mumbai from Nominatim...
+2025-10-30 09:34:52,879 - src.data_pipeline.osm_loader - INFO - Retrieved bounds for Mumbai: (18.8939566, 72.776333, 19.2694771, 72.9817485)
+2025-10-30 09:35:05,192 - src.data_pipeline.osm_loader - INFO - Filtered 4902 POIs down to 10 valid POIs
+2025-10-30 09:35:05,192 - src.data_pipeline.osm_loader - INFO - Fetched 10 POIs for Mumbai
+2025-10-30 09:35:05,197 - src.data_pipeline.data_validator - INFO - Validating 10 POI records...
+2025-10-30 09:35:05,197 - src.data_pipeline.data_validator - INFO - POI validation completed. Score: 60.4/100, Valid: 10/10
+2025-10-30 09:35:05,198 - src.data_pipeline.weather_loader - INFO - WeatherAPI.com Data Loader initialized
+2025-10-30 09:35:05,346 - src.data_pipeline.weather_loader - INFO - Retrieved weather data for 3 days at 
+2025-10-30 09:35:05,347 - src.data_pipeline.data_validator - INFO - Validating 3 weather records...
+2025-10-30 09:35:05,347 - src.data_pipeline.data_validator - INFO - Weather validation completed. Score: 92.9/100, Valid: 3/3
+2025-10-30 09:35:05,347 - src.data_pipeline.data_validator - INFO - Full validation completed. Status: success

@@ -1,0 +1,60 @@
+# Core Web Framework
+streamlit
+fastapi
+uvicorn
+
+# Data Processing & ML
+pandas
+numpy
+scikit-learn
+scipy
+
+# Geospatial & Mapping
+folium
+geopandas
+shapely
+geopy
+
+# Weather Data
+meteostat
+
+# OpenStreetMap Data
+overpy
+requests
+
+# Google AI & APIs
+google-generativeai
+google-cloud-aiplatform
+
+# Visualization
+matplotlib
+plotly
+seaborn
+
+# PDF Generation
+reportlab
+fpdf2
+
+# Database  # Built-in with Python
+sqlalchemy
+
+# Utilities
+python-dotenv
+pydantic
+loguru
+
+# Testing
+pytest
+pytest-cov
+
+# Development
+jupyter
+black
+flake8
+
+# Caching
+redis
+
+# Time & Date
+python-dateutil
+pytz
